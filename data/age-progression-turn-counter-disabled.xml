@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+  <!-- Freeze turn-based timer progression -->
+  <AgeProgressionTurns>
+    <Update>
+      <Where AgeProgressionTurnType="AGE_PROGRESSION_PER_TURN_BASE"/>
+      <Set Points="0"/>
+    </Update>
+  </AgeProgressionTurns>
+
+  <!-- Freeze milestones and future tech/civic progression -->
   <AgeProgressionEvents>
     <Update>
-      <Where AgeProgressionEventType='AGE_PROGRESSION_TURN_COUNTER'/>
-      <Set Points='0'/>
+      <Where AgeProgressionEventType="AGE_PROGRESSION_PLAYER_MILESTONE_1"/>
+      <Set Points="0"/>
     </Update>
-	</AgeProgressionEvents>
+    <Update>
+      <Where AgeProgressionEventType="AGE_PROGRESSION_PLAYER_MILESTONE_2"/>
+      <Set Points="0"/>
+    </Update>
+    <Update>
+      <Where AgeProgressionEventType="AGE_PROGRESSION_PLAYER_MILESTONE_3"/>
+      <Set Points="0"/>
+    </Update>
+    <Update>
+      <Where AgeProgressionEventType="AGE_PROGRESSION_FUTURE_TECH"/>
+      <Set Points="0"/>
+    </Update>
+    <Update>
+      <Where AgeProgressionEventType="AGE_PROGRESSION_FUTURE_CIVIC"/>
+      <Set Points="0"/>
+    </Update>
+  </AgeProgressionEvents>
 </Database>

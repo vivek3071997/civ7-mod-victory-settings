@@ -16,11 +16,4 @@
       <Set MinConditionPercentage='100'/>
     </Update>
   </Strategies>
-
-  <AgeProgressionMilestones>
-    <Update>
-      <Where LegacyPathType='LEGACY_PATH_EXPLORATION_CULTURE'/>
-      <Set AgeProgressionAmount='0'/>
-    </Update>
-	</AgeProgressionMilestones>
 </Database>

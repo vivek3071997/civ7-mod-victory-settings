@@ -34,11 +34,4 @@
       <Set MaxPerPlayer='0'/>
     </Update>
   </Wonders>
-
-  <AgeProgressionMilestones>
-    <Update>
-      <Where LegacyPathType='LEGACY_PATH_MODERN_CULTURE'/>
-      <Set AgeProgressionAmount='0'/>
-    </Update>
-	</AgeProgressionMilestones>
 </Database>

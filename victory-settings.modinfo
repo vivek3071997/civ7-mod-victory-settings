@@ -144,7 +144,6 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/core/config/SetupParameters.xml</Item>
-					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 				</UpdateDatabase>
 
 				<UpdateText>
@@ -276,6 +275,6 @@
 	</ActionGroups>
 	<LocalizedText>
 		<File>text/en_us/ModuleText.xml</File>
-		<File>l10n/ModuleText.xml</File>
+		<File>l10n/de_DE_ModuleText.xml</File>
 	</LocalizedText>
 </Mod>
