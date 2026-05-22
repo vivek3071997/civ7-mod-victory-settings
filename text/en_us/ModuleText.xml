@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<EnglishText>
-		<Row Tag="LOC_MODULE_VICTORY_SETTINGS">
+	<LocalizedText>
+		<Replace Tag="LOC_MODULE_VICTORY_SETTINGS" Language="en_US">
 			<Text>Advanced Options - Victory Conditions</Text>
-		</Row>
-		<Row Tag="LOC_MODULE_VICTORY_SETTINGS_DESC">
+		</Replace>
+		<Replace Tag="LOC_MODULE_VICTORY_SETTINGS_DESC" Language="en_US">
 			<Text>Prevents selected victory conditions and the selection of AI strategies for them.</Text>
-		</Row>
-	</EnglishText>
+		</Replace>
+	</LocalizedText>
 </Database>

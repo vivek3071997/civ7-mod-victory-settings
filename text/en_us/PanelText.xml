@@ -1,49 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<EnglishText>
-    <Row Tag="LOC_GROUPID_VICTORYOPTIONS">
-      <Text>Victory Options</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_MILITARY">
-      <Text>Military Victory</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_MILITARY_DESC">
-      <Text>Enable or disable military victory conditions</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_SCIENCE">
-      <Text>Science Victory</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_SCIENCE_DESC">
-      <Text>Enable or disable science victory conditions</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_ECONOMIC">
-      <Text>Economic Victory</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_ECONOMIC_DESC">
-      <Text>Enable or disable economic victory conditions</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_CULTURE">
-      <Text>Culture Victory</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_CULTURE_DESC">
-      <Text>Enable or disable culture victory conditions</Text>
-    </Row>
+	<LocalizedText>
+		<Replace Tag="LOC_GROUPID_VICTORYOPTIONS" Language="en_US">
+			<Text>Victory Options</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_MILITARY" Language="en_US">
+			<Text>Military Victory</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_MILITARY_DESC" Language="en_US">
+			<Text>Enable or disable military victory conditions</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_SCIENCE" Language="en_US">
+			<Text>Science Victory</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_SCIENCE_DESC" Language="en_US">
+			<Text>Enable or disable science victory conditions</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_ECONOMIC" Language="en_US">
+			<Text>Economic Victory</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_ECONOMIC_DESC" Language="en_US">
+			<Text>Enable or disable economic victory conditions</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_CULTURE" Language="en_US">
+			<Text>Culture Victory</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_VICTORY_CONDITIONS_CULTURE_DESC" Language="en_US">
+			<Text>Enable or disable culture victory conditions</Text>
+		</Replace>
+		<Replace Tag="LOC_GROUPID_PROGRESSIONOPTIONS" Language="en_US">
+			<Text>Age Progression</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PROGRESSION_TURN_COUNTER" Language="en_US">
+			<Text>Turn Counter</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PROGRESSION_TURN_COUNTER_DESC" Language="en_US">
+			<Text>Should progression be increased by the number of turns?</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PROGRESSION_PLAYER_ELIMINATED" Language="en_US">
+			<Text>Player Elimination</Text>
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PROGRESSION_PLAYER_ELIMINATED_DESC" Language="en_US">
+			<Text>Should progression be increased by the elimination of players?</Text>
+		</Replace>
 
-    <Row Tag="LOC_GROUPID_PROGRESSIONOPTIONS">
-      <Text>Age Progression</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_PROGRESSION_TURN_COUNTER">
-      <Text>Turn Counter</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_PROGRESSION_TURN_COUNTER_DESC">
-      <Text>Should progression be increased by the number of turns?</Text>
-    </Row>
-
-    <Row Tag="LOC_ADVANCED_OPTIONS_PROGRESSION_PLAYER_ELIMINATED">
-      <Text>Player Elimination</Text>
-    </Row>
-    <Row Tag="LOC_ADVANCED_OPTIONS_PROGRESSION_PLAYER_ELIMINATED_DESC">
-      <Text>Should progression be increased by the elimination of players?</Text>
-    </Row>
-	</EnglishText>
+		<!-- King of Ashes Defeat -->
+		<Replace Tag="LOC_DEFEAT_KING_OF_ASHES_NAME" Language="en_US">
+			<Text>King of Ashes</Text>
+		</Replace>
+		<Replace Tag="LOC_DEFEAT_KING_OF_ASHES_TEXT" Language="en_US">
+			<Text>Defeated. You are the king  of ashes. This world will be lost amoung the stars, and there is nothing. Enjoy the beauty of silence and darkness.</Text>
+		</Replace>
+	</LocalizedText>
 </Database>

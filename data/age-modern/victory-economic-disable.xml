@@ -30,11 +30,4 @@
       <Set ActionCharges='0'/>
     </Update>
   </GreatPersonIndividuals>
-
-  <AgeProgressionMilestones>
-    <Update>
-      <Where LegacyPathType='LEGACY_PATH_MODERN_ECONOMIC'/>
-      <Set AgeProgressionAmount='0'/>
-    </Update>
-	</AgeProgressionMilestones>
 </Database>
