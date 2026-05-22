@@ -148,7 +148,6 @@
 
 				<UpdateText>
 					<Item>text/en_us/PanelText.xml</Item>
-
 					<Item locale="de_DE">l10n/de_DE_PanelText.xml</Item>
 				</UpdateText>
 
@@ -272,9 +271,12 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
+
+
 	</ActionGroups>
 	<LocalizedText>
 		<File>text/en_us/ModuleText.xml</File>
+		<File>text/en_us/PanelText.xml</File>
 		<File>l10n/de_DE_ModuleText.xml</File>
 	</LocalizedText>
 </Mod>
